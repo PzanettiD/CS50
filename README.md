@@ -13,7 +13,9 @@
   - problem_set_3 : C. 
     - helpers.c
     - bday.txt
-  - problem_set_4 : C. whodunit.c / resize.c / recover.c
+  - problem_set_4 : C.
     - whodunit.c
     - resize.c
     - recover.c
+  - problem_set_5 : C.
+    - dictionary.c
