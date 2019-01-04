@@ -19,3 +19,11 @@
     - recover.c
   - problem_set_5 : C.
     - dictionary.c
+  - problem_set_6: Python / HTML
+    - hello.py
+    - mario.py
+    - credit.py
+    - caesar.py
+    - vigenere.py
+    - application.py
+    - helpers.py
