@@ -17,8 +17,10 @@
     - whodunit.c
     - resize.c
     - recover.c
-  - pset5 : C.
-    - dictionary.c
+  - pset5 : C / HTML
+    - speller/dictionary.c
+    - homepage/styles.css
+    - homepage/.html
   - pset6: Python / HTML
     - hello.py
     - mario.py
