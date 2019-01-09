@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(to right, #F7F1E9 , #F9FBBA);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin: auto;
+    padding: 0;
+}
+
+.standard {
+    font-size: 25px;
+    margin: auto;
+    padding: 15px;
+    border-bottom: 7px solid;
+    border-color: #F8856D;
+    background-color: #F9E9D3;
+}
+
+#important {
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    color: #0F99FB;
+    text-decoration: underline;
+}
+
+.content {
+    text-align: justify;
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 1.5;
+    font-family: Courier;
+}
+
+#product-list {
+    font-family: courier;
+    font-style: italic;
+    font-weight: bold;
+    border-right: 6px solid #F8856D;
+    border-left: 6px solid #F8856D;
+}
+
+.basic {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
