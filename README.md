@@ -29,3 +29,12 @@
     - vigenere.py
     - application.py
     - helpers.py
+  - pset7: Python / HTML / CSS / sqlite3
+    - finance.db
+    - application.py
+    - templates/register.html
+    - templates/quote.html
+    - templates/buy.html
+    - templates/sell.html
+    - templates/index.html
+    - templats/history.html
