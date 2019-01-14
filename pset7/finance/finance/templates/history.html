@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    <table id="table_index">
+        <tr>
+            <th>Stock Name</th>
+            <th>Stock Symbol</th>
+            <th>Number of Shares</th>
+            <th>Price per Stock</th>
+            <th>Holding</th>
+        </tr>
+        {% for i in table_info %}
+            <tr>
+                <td>{{table_info[loop.index0]["stockname"]}}</td>
+                <td>{{table_info[loop.index0]["stocksymbol"]}}</td>
+                <td>{{table_info[loop.index0]["stockshares"]}}</td>
+                <td>{{usd(table_info[loop.index0]["stockprice"])}}</td>
+                <td>{{usd(table_info[loop.index0]["holding"])}}</td>
+                <td>{{table_info[loop.index0]["date"]}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
