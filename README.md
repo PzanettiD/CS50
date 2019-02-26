@@ -38,3 +38,7 @@
     - templates/sell.html
     - templates/index.html
     - templats/history.html
+    
+# Certificate of course conclusion:
+![Certificate](https://i.imgur.com/6QBXLJK.jpg)
+
